@@ -1,5 +1,5 @@
 """
-WSGI config for drf_allauth project.
+WSGI config for pokemon_api project.
 
 It exposes the WSGI callable as a module-level variable named ``application``.
 
@@ -11,6 +11,6 @@ import os
 
 from django.core.wsgi import get_wsgi_application
 
-os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'drf_allauth.settings')
+os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'pokemon_api.settings')
 
 application = get_wsgi_application()
