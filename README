@@ -1,0 +1,7 @@
+Project: Pokémon API
+Author: Phillipe Pereira
+Contact: apphillipe@gmail.com
+
+1 - API Performance
+
+To improve the performance of requests, it is recommended to use asynchronous calls that can be implemented through the multiprocessing library. Other options can be analyzed with the libraries asyncio and urllib2. 
